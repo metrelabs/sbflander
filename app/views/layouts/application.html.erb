@@ -10,7 +10,31 @@
 
 <div class="container">
 
-	<%= yield %>
+	<div class="row-fluid header">
+		<div class="span12 padding-20">
+			<div class="span4"><%= image_tag 'logo.png' %></div>
+		<div class="span8"></div>
+
+		</div>
+		
+
+	</div>
+
+
+
+
+
+	<div class="row-fluid">
+		
+		<div class="span12 padding-40">
+			<div class="row-fluid">
+				<div class="span12 padding-20 issue"><strong>Vol. 1, Issue 2</strong></div>
+			</div>
+			<div class="row-fluid">
+				<div class="span12 padding-20 main"><%= yield %></div>
+			</div>
+		</div>
+	</div>
 
 </div>
 

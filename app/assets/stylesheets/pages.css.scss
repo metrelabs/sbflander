@@ -1,3 +1,96 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$sb-red: #902d35;
+$bg-gray: #f5f5f5;
+$issue-blue: #7f9dab;
+$bg-tan: #E3E3D9;
+$text: #444444;
+$body-bg: #e3e3db;
+$white: #ffffff;
+
+.padding-20 {
+	padding: 20px;
+}
+
+.padding-40 {
+	padding: 40px;
+}
+
+.redborder {border:1px solid red;}
+
+html {
+	background-color: $body-bg;
+	background-image: url('body-gradient.gif') repeat-x 0 0;		
+}
+body {
+	background:url('bg.jpg') no-repeat 50% 0;
+	min-height:700px;
+}
+
+.header {
+  padding:0px;
+  
+  img {
+  	margin-left:20px;
+  }
+}
+
+
+
+.issue {
+	display:block;
+	background-color: $sb-red;
+	padding-top:0;
+	padding-bottom:0;
+	height:35px !important;
+	font-size:17px;
+	line-height:35px;
+	text-transform:uppercase;
+	color:$white;
+	text-align:right;
+}
+
+.main {
+	
+	
+		background-color: $white;
+	
+}
+
+.lender {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: $sb-red;
+}
+
+h3 {
+	margin-top: -.70em;
+	color:$bg-gray - 90;
+	line-height:1em;
+}
+
+h4 {
+	margin-top:1em;color:$sb-red;
+}
+
+p {margin-bottom:2em;margin-top:-.5em;}
+
+small {
+	display:block;
+	margin-top:-1em;
+	color:$sb-red;
+	font-style:italic;
+
+}
+
+.thumbs {
+	font-style:normal;	
+	margin-top:0;
+	line-height:1.25em;	
+}
+
+
