@@ -1,16 +1,20 @@
-<div class="span3 lender">
+<div class="span4 lender">
 
 	<div class="row">
-	
+	<div class="span10 offset2">
 	<% @lenders.each do |lender| %>
-	<div class="span10 offset1" style="text-align:center;">
+	
 		<% unless @page_title == lender[:name] %>
+			<div style="float:left;width:48%;height:160px;">
 			<%= image_tag "http://process.mostlyclicks.com/sbf/#{lender[:img]}_100.jpg", alt: 'lender', style: 'margin-bottom:5px;' %><br />
 			<small class="thumbs"><%= lender[:name] %><br />
 			<%= lender[:job] %></small><br />
 		</div>
+		
 		<% end %>
+	
 	<% end %>
+	</div>
 	
 	</div>
 </div>
