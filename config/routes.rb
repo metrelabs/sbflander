@@ -1,4 +1,17 @@
 Sbflander::Application.routes.draw do
+  get "pages/index"
+  get "pages/stevem"
+  get "pages/jasonl"
+  get "pages/dalep"
+  get "pages/tonya"
+  get "pages/jodie"
+  get "pages/timw"
+  get "pages/nickb"
+  get "pages/colinf"
+  get "pages/terryc"
+  get "pages/carolo"
+  get "pages/econ_ind"
+  get "pages/djw"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
