@@ -1,22 +1,22 @@
 Sbflander::Application.routes.draw do
   get "pages/index"
-  get "pages/stevem"
-  get "pages/jasonl"
-  get "pages/dalep"
-  get "pages/tonya"
-  get "pages/jodie"
-  get "pages/timw"
-  get "pages/nickb"
-  get "pages/colinf"
-  get "pages/terryc"
-  get "pages/carolo"
-  get "pages/econ_ind"
-  get "pages/djw"
+  get "stevem" => "pages#stevem"
+  get "jasonl" => "pages#jasonl"
+  get "dalep" => "pages#dalep"
+  get "tonya" => "pages#tonya"
+  get "jodie" => "pages#jodie"
+  get "timw" => "pages#timw"
+  get "nickb" => "pages#nickb"
+  get "colinf" => "pages#colinf"
+  get "terryc" => "pages#terryc"
+  get "carolo" => "pages#carolo"
+  get "econ_ind" => "pages#econ_ind"
+  get "djw" => "pages#djw"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'pages#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
