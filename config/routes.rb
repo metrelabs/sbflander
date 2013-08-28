@@ -12,6 +12,8 @@ Sbflander::Application.routes.draw do
   get "carolo" => "pages#carolo"
   get "econ_ind" => "pages#econ_ind"
   get "djw" => "pages#djw"
+
+ 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
