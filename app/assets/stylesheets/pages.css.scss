@@ -22,7 +22,7 @@ $white: #ffffff;
 
 html {
 	background-color: $body-bg;
-	background-image: url('body-gradient.gif') repeat-x 0 0;		
+	background-image: url(image_path('body-gradient.gif')) repeat-x 0 0;		
 }
 body {
 	background:url('bg.jpg') no-repeat 50% 0;
