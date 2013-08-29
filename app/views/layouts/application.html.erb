@@ -12,7 +12,7 @@
 
 	<div class="row-fluid header">
 		<div class="span12 padding-20">
-			<div class="span4"><%= image_tag 'logo.png' %></div>
+			<div class="span4"><%= link_to (image_tag 'logo.png'), 'http://www.statebankfinancial.com' %></div>
 		<div class="span8"></div>
 
 		</div>
@@ -82,7 +82,7 @@
 
 				</div>
 
-				<div class="row-fluid subfooter" >
+				<div class="row-fluid subfooter">
 					<div class="span4 center" >
 						<h5><%= link_to 'statebankfinancial.com', 'http://www.statebankfinancial.com' %></h5>
 					</div>
@@ -114,6 +114,8 @@
 			</div>
 		</div>
 	</div>
+
+	<%= render 'pages/google' if Rails.env == 'staging' %>
 
 </body>
 </html>
