@@ -26,11 +26,16 @@
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
+	.span3 img {
+		margin-top:20px;
+	}
 	
  }
  
 /* Landscape phones and down */
 @media (max-width: 480px) { 
+
+
 	
 	.issue {
 		font-size:10px !important;
