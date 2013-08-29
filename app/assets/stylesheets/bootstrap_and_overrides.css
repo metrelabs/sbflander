@@ -9,33 +9,33 @@
   /* Large desktop */
 @media (min-width: 1200px) { 
 
-	body {border:1px solid red;}
+	
 
  }
 
 @media (min-width: 980px) and (max-width: 1199px) { 
-	body {border:1px solid green;}
+	
 	img {width:100%;}
  }
 
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
-	body {border:1px solid green;}
+	
  }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
-	body {border:1px solid blue;}
+	
  }
  
 /* Landscape phones and down */
 @media (max-width: 480px) { 
-	body {border:1px solid green;}
+	
 	.issue {
 		font-size:10px !important;
 		text-align:center;
-		
+
 	}
 
  }
