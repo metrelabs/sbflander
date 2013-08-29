@@ -35,6 +35,19 @@
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 
+	.container {
+		width:100%;
+		padding:0 !important;
+
+	}
+
+	.padding-40 {
+		padding:0px !important;
+	}
+
+	.padding-20 {
+		padding:0px;
+	}
 
 	
 	.issue {
@@ -49,6 +62,8 @@
 		text-align: center !important;
 		text-shadow:none;
 	}
+
+	.footer {margin-top:0 !important;}
 
 	.footer .span4 {
 		text-align:center !important;
