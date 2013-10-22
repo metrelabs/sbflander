@@ -26,7 +26,7 @@ before_action :load_lenders
 
   def stevem
     @page_title = 'Steve McConaghy'
-
+    
   end
 
   def jasonl
