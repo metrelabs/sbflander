@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
 before_action :load_lenders
+before_action :load_contact
 
 
   def load_lenders
@@ -27,7 +28,10 @@ before_action :load_lenders
   def stevem
     @page_title = 'Steve McConaghy'
     
+    @var = "hello"
   end
+
+
 
   def jasonl
     @page_title = 'Jason Lawton'
@@ -70,5 +74,9 @@ before_action :load_lenders
 
   def djw
     @page_title = 'D. J. Wright'
+  end
+
+  def load_contact
+    @contact = Contact.new
   end
 end

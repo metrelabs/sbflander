@@ -1,4 +1,6 @@
 Sbflander::Application.routes.draw do
+  resources :contacts
+
   get "pages/index"
   get "stevem" => "pages#stevem"
   get "stevem/v1/i2" => "pages#stevem"
