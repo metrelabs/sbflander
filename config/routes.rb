@@ -3,6 +3,9 @@ Sbflander::Application.routes.draw do
   get "stevem" => "pages#stevem"
   get "stevem/v1/i2" => "pages#stevem"
   get "stevem/v1/i3" => "pages#stevem-v1-i3"
+  get "carolo/v1/i3" => "pages#carolo-v1-i3"
+  get "dalep/v1/i3" => "pages#dalep-v1-i3"
+
   get "jasonl" => "pages#jasonl"
   get "dalep" => "pages#dalep"
   get "tonya" => "pages#tonya"
