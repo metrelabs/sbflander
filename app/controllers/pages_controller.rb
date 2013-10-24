@@ -16,6 +16,7 @@ before_action :load_contact
       {img: 'colin_fleming', name: 'Colin Fleming', job: 'Vice President'},
       {img: 'terry', name: 'Terry Crolius', job: 'Vice President'},
       {img: 'CarolOstrem', name: 'Carol Ostrem', job: 'Community Development Officer'},
+      {img: 'wayneo', name: 'Wayne Oliver', job: 'Executive Vice President'},
       {img: 'dj', name: 'D. J. Wright', job: 'Vice President - Agriculture Solutions'}
     ]
     
@@ -29,6 +30,10 @@ before_action :load_contact
     @page_title = 'Steve McConaghy'
     
     @var = "hello"
+  end
+
+  def wayneo
+    @page_title = 'Wayne Oliver'
   end
 
 

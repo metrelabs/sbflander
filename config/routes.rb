@@ -4,6 +4,7 @@ Sbflander::Application.routes.draw do
   get "pages/index"
   get "econ_ind" => "pages#econ_ind"
   
+  get "wayneo/v1/i3" => "pages#wayneo-v1-i3"
   get "stevem/v1/i2" => "pages#stevem"
   get "stevem/v1/i3" => "pages#stevem-v1-i3"
   get "carolo/v1/i3" => "pages#carolo-v1-i3"
