@@ -2,12 +2,36 @@ Sbflander::Application.routes.draw do
   resources :contacts
 
   get "pages/index"
-  get "stevem" => "pages#stevem"
+  get "econ_ind" => "pages#econ_ind"
+  
   get "stevem/v1/i2" => "pages#stevem"
   get "stevem/v1/i3" => "pages#stevem-v1-i3"
   get "carolo/v1/i3" => "pages#carolo-v1-i3"
   get "dalep/v1/i3" => "pages#dalep-v1-i3"
+  get "colinf/v1/i3" => "pages#colinf-v1-i3"
+  get "jasonl/v1/i3" => "pages#jasonl-v1-i3"  
+  get "tonya/v1/i3" => "pages#tonya-v1-i3"
+  get "jodie/v1/i3" => "pages#jodie-v1-i3"
+  get "timw/v1/i3" => "pages#timw-v1-i3"
+  get "nickb/v1/i3" => "pages#nickb-v1-i3"
+  get "terryc/v1/i3" => "pages#terryc-v1-i3"
+  get "carolo/v1/i3" => "pages#carolo-v1-i3"
+  get "djw/v1/i3" => "pages#djw-v1-i3"
 
+  get "stevem/v1/i2" => "pages#stevem-v1-i2"
+  get "carolo/v1/i2" => "pages#carolo-v1-i2"
+  get "dalep/v1/i2" => "pages#dalep-v1-i2"
+  get "colinf/v1/i2" => "pages#colinf-v1-i2"
+  get "jasonl/v1/i2" => "pages#jasonl-v1-i2"  
+  get "tonya/v1/i2" => "pages#tonya-v1-i2"
+  get "jodie/v1/i2" => "pages#jodie-v1-i2"
+  get "timw/v1/i2" => "pages#timw-v1-i2"
+  get "nickb/v1/i2" => "pages#nickb-v1-i2"
+  get "terryc/v1/i2" => "pages#terryc-v1-i2"
+  get "carolo/v1/i2" => "pages#carolo-v1-i2"
+  get "djw/v1/i2" => "pages#djw-v1-i2"
+
+  get "stevem" => "pages#stevem"
   get "jasonl" => "pages#jasonl"
   get "dalep" => "pages#dalep"
   get "tonya" => "pages#tonya"
@@ -17,7 +41,6 @@ Sbflander::Application.routes.draw do
   get "colinf" => "pages#colinf"
   get "terryc" => "pages#terryc"
   get "carolo" => "pages#carolo"
-  get "econ_ind" => "pages#econ_ind"
   get "djw" => "pages#djw"
 
  

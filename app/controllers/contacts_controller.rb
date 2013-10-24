@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+  http_basic_authenticate_with name: ENV["SENDGRID_USER"], password: ENV["SENDGRID_PASSWORD"], only: :index
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
 
   # GET /contacts

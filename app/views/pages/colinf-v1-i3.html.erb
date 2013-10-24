@@ -1,0 +1,47 @@
+<% content_for :volume_issue do %>
+  Vol. 1, Issue 3
+<% end %>
+
+<div class="span5">
+<h2>Your Headlines Delivered</h2>
+<h3>Industry news relevant to your financial success</h3>
+	
+	<h4 class="h-article"><a href="http://online.wsj.com/news/articles/SB10001424052702303492504579115750692362512?mod=WSJ__MIDDLENexttoWhatsNewsForth" style="color:#840d18;" onClick="_gaq.push(['_trackEvent', 'Outbound Links', 'Click', 'Loan Spigot Runs Dry for Small Businesses ']);">Loan Spigot Runs Dry for Small Businesses </a></h4>
+
+	<p class="p-article">Those awaiting a government-backed SBA loan may have to wait a while longer due to the federal government shutdown. - The Wall Street Journal </p>
+
+	<h4 class="h-article"><a href="http://www.cnbc.com/id/101037568" style="color:#840d18;" onClick="_gaq.push(['_trackEvent', 'Outbound Links', 'Click', ''Made in USA' Fuels New Manufacturing Hubs in Apparel ']);">'Made in USA' Fuels New Manufacturing Hubs in Apparel </a></h4>
+
+	<p class="p-article">Currently, 97% of the apparel sold in the U.S. is made overseas, but there are signs that that is changing. - CNBC </p>
+
+	<h4 class="h-article"><a href="http://www.newsday.com/business/retailers-ring-in-the-shopping-season-earlier-1.6198734" style="color:#840d18;" onClick="_gaq.push(['_trackEvent', 'Outbound Links', 'Click', 'Retailers Ring in the Shopping Season Earlier ']);">Retailers Ring in the Shopping Season Earlier </a></h4>
+
+	<p class="p-article">A significant number of shoppers begin purchasing holiday gifts in September, when they see a good deal, according to retail experts. - Newsday </p>
+
+</div>
+
+
+
+<div class="span3">
+<img src="http://process.mostlyclicks.com/sbf/Colin_Fleming_250.jpg" />
+
+		<h4>Colin Fleming</h4>
+	      <small>Vice President, Small Business Lending</small>
+
+	      <h4>I Can Help</h4>
+	      <p style="-webkit-margin-before:.25em !important;-webkit-margin-after:.65em !important;font-family:arial, sans-serif;">We're here to help with your success. Click the solutions below to email me for more information.</p>
+					      <ul>
+        <li style="font-family:arial, sans-serif;font-size:12px;"><a href="mailto:colinf@statebankfinancial.com?cc=wayneo@statebankfinancial.com&subject=Real%20Estate%20Loans%20Inquiry" style="color:#840d18;">Real Estate Loans</a></li>
+        <li style="font-family:arial, sans-serif;font-size:12px;"><a href="mailto:colinf@statebankfinancial.com?cc=wayneo@statebankfinancial.com&subject=Term%20Loans%20Inquiry" style="color:#840d18;">Term Loans</a></li>
+        <li style="font-family:arial, sans-serif;font-size:12px;"><a href="mailto:colinf@statebankfinancial.com?cc=wayneo@statebankfinancial.com&subject=Lines%20of%20Credit%20Inquiry" style="color:#840d18;">Lines of Credit</a></li>
+        <li style="font-family:arial, sans-serif;font-size:12px;"><a href="mailto:colinf@statebankfinancial.com?cc=wayneo@statebankfinancial.com&subject=Floor%20Plans%20Inquiry" style="color:#840d18;">Floor Plans</a></li>
+
+					      </ul>
+    
+    <% @contact_from_page = 'colinf@statebankfinancial.com' %>
+<%= render :partial => '/contacts/form', :locals => {:data => @contact} %>
+
+    
+</div>
+
+<%= render 'lender_team' %>

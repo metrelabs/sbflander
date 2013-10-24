@@ -42,6 +42,8 @@
     <li style="font-family:arial, sans-serif;font-size:12px;"><a href="mailto:dalep@statebankfinancial.com?bcc=wayneo@statebankfinancial.com&subject=Equipment%20Leasing%20inquiry" style="color:#840d18;">Equipment Leasing</a></li>
   </ul>
 
+<% @contact_from_page = 'dalep@statebankfinancial.com' %>
+<%= render :partial => '/contacts/form', :locals => {:data => @contact} %>
 
 </div>
 

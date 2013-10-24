@@ -40,7 +40,8 @@
         <li style="font-family:arial, sans-serif;font-size:12px;"><a href="mailto:carolo@statebankfinancial.com?cc=wayneo@statebankfinancial.com&subject=Small%20Business%20Loans%20(SBA)%20Inquiry" style="color:#840d18;">Small Business Loans (SBA)</a></li>
       </ul>
     
-    
+    <% @contact_from_page = 'carolo@statebankfinancial.com' %>
+    <%= render :partial => '/contacts/form', :locals => {:data => @contact} %>
 
 </div>
 
