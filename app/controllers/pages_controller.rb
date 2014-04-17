@@ -84,4 +84,8 @@ before_action :load_contact
   def load_contact
     @contact = Contact.new
   end
+
+  def links_to_pages
+
+  end
 end

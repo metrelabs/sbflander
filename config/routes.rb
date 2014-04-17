@@ -1,6 +1,6 @@
 Sbflander::Application.routes.draw do
   resources :contacts
-
+  get "pages/links" => "pages#links_to_pages"
   get "pages/index"
   get "econ_ind" => "pages#econ_ind"
   
@@ -49,7 +49,7 @@ Sbflander::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'pages#index'
+  root 'pages#links_to_pages'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
