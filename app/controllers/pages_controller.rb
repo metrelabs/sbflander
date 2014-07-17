@@ -12,12 +12,10 @@ before_action :load_contact
       {img: 'tony', name: 'Tony Abney', job: 'Vice President, Business Banking Solutions'},
       {img: 'jodi', name: 'Jodi Ehrenberger', job: 'Assistant Vice President'},
       {img: 'tim', name: 'Tim Willenbring', job: 'Vice President'},
-      {img: 'nick_benz', name: 'Nick Benz', job: 'Business Banking Officer'},
       {img: 'colin_fleming', name: 'Colin Fleming', job: 'Vice President'},
       {img: 'terry', name: 'Terry Crolius', job: 'Vice President'},
       {img: 'CarolOstrem', name: 'Carol Ostrem', job: 'Community Development Officer'},
-      {img: 'wayneo', name: 'Wayne Oliver', job: 'Executive Vice President'},
-      {img: 'dj', name: 'D. J. Wright', job: 'Vice President - Agriculture Solutions'}
+      {img: 'wayneo', name: 'Wayne Oliver', job: 'Executive Vice President'}
     ]
     
   end
@@ -58,9 +56,7 @@ before_action :load_contact
     @page_title = 'Tim Willenbring'
   end
 
-  def nickb
-    @page_title = 'Nick Benz'
-  end
+  
 
   def colinf
     @page_title = 'Colin Fleming'
@@ -77,9 +73,7 @@ before_action :load_contact
   def econ_ind
   end
 
-  def djw
-    @page_title = 'D. J. Wright'
-  end
+
 
   def load_contact
     @contact = Contact.new
