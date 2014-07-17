@@ -4,7 +4,21 @@ Sbflander::Application.routes.draw do
   get "pages/index"
   get "econ_ind" => "pages#econ_ind"
 
-   get "wayneo/v1/i4" => "pages#wayneo-v1-i4"
+  get "wayneo/v1/i5" => "pages#wayneo-v1-i5"
+  get "stevem/v1/i2" => "pages#stevem"
+  get "stevem/v1/i5" => "pages#stevem-v1-i5"
+  get "carolo/v1/i5" => "pages#carolo-v1-i5"
+  get "dalep/v1/i5" => "pages#dalep-v1-i5"
+  get "colinf/v1/i5" => "pages#colinf-v1-i5"
+  get "jasonl/v1/i5" => "pages#jasonl-v1-i5"  
+  get "tonya/v1/i5" => "pages#tonya-v1-i5"
+  get "jodie/v1/i5" => "pages#jodie-v1-i5"
+  get "timw/v1/i5" => "pages#timw-v1-i5"
+  get "terryc/v1/i5" => "pages#terryc-v1-i5"
+  get "carolo/v1/i5" => "pages#carolo-v1-i5"
+
+
+  get "wayneo/v1/i4" => "pages#wayneo-v1-i4"
   get "stevem/v1/i2" => "pages#stevem"
   get "stevem/v1/i4" => "pages#stevem-v1-i4"
   get "carolo/v1/i4" => "pages#carolo-v1-i4"
